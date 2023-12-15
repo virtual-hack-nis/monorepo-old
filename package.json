@@ -1,7 +1,14 @@
 {
   "name": "monorepo",
+  "version": "1.0.0",
   "packageManager": "yarn@4.0.2",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dummy": "echo 'dummy'"
+  },
+  "devDependencies": {
+    "supabase": "1.123.4"
+  }
 }

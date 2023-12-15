@@ -1,0 +1,2 @@
+# This is the main docker compose stack file
+version: '3'
