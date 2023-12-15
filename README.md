@@ -15,7 +15,15 @@ Within the root of the project, run the scripts by typing `yarn run <script-name
 
 Within this yarn workspaces monorepo, you can invoke lower level scripts by typing `yarn workspace <workspace-name> <script-name>`. For example, to run the `build` script in the `packages/client` workspace, type`yarn workspace client build`.
 
+Scripts:
+- `start:docs` - starts the docusaurus docs
+- `start:app` - starts the metro bundler for the expo app
+- `start:supabase` - starts the supabase on the localhost. NOTE - Luka to make sure that other people dont need to worry bout supabase, introduce nodemon to do hotreloads or something every now and then
+- `start:visualizer` - starts the visualizer on localhost:3000 (figure out if supabase needs port 3000)
+
 ## Packages within the monorepo
+
+### Refer to package specific directory for docs about that package (or docusaurus docs)
 
 Currently we're planning on using the following packages within our monorepo:
 - supabase - this is our backend as a service package, we're using the supabase cli to manage the database / edge functions etc.
