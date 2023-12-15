@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dummy": "echo 'dummy'"
+    "start:docs": "yarn workspace docs docusaurus start"
   },
   "devDependencies": {
     "supabase": "1.123.4"
