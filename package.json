@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start:docs": "yarn workspace docs docusaurus start"
+    "start:docs": "yarn workspace docs docusaurus start",
+    "start:supabase" : "yarn workspace supabase start"
   },
   "devDependencies": {
     "supabase": "1.123.4"
