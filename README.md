@@ -23,3 +23,14 @@ Currently we're planning on using the following packages within our monorepo:
 - mocks - since we're building a POC, we shall add some sort of mock services / simulations that would help us explain our idea further. This package will contain such.
 - docs - this package will contain docusaurus documentation about the endpoints and such
 - visualizer - visualization service, you can check it out [here](https://github.com/zernonia/supabase-schema), kudos to the guy. Used for visualizing the database schemas.
+
+## Versioning the monorepo
+
+Semantic versioning
+
+## Branch structure during the Hackathon
+- master - this branch will contain the LTS version of the project. Luka shall manage the pull requests and merges
+- develop - this branch shall be our rolling branch
+- feat/feature-name - feature specific branches
+
+Hotfixes go into develop!!!
