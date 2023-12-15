@@ -21,4 +21,5 @@ Currently we're planning on using the following packages within our monorepo:
 - supabase - this is our backend as a service package, we're using the supabase cli to manage the database / edge functions etc.
 - app - package containing our expo application
 - mocks - since we're building a POC, we shall add some sort of mock services / simulations that would help us explain our idea further. This package will contain such.
-- docs - this package will contain docusaurus documentation / 
+- docs - this package will contain docusaurus documentation about the endpoints and such
+- visualizer - visualization service, you can check it out [here](https://github.com/zernonia/supabase-schema), kudos to the guy. Used for visualizing the database schemas.
