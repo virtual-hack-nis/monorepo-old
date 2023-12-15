@@ -2,6 +2,7 @@
   "name": "supabase",
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "start" : "echo 'No start script found' && exit 1"
+    "start": "npx supabase start",
+    "reset": "npx supabase db reset"
   }
 }
